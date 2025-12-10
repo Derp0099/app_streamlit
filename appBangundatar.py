@@ -9,7 +9,7 @@ menu = st.sidebar.selectbox('Menu', ['Luas Persegi', 'Luas Segitiga', 'Luas Ling
 
 if menu == 'Luas Persegi' :
     st.write('ini halaman untuk menghitung luas persegi')
-    st.image('https://uptdsmpn3bangkalan.sch.id/wp-content/uploads/2024/01/persegi-bangun-datar.webp', caption='gambar persegi')
+    st.image('https://www.doyanblog.com/wp-content/uploads/2021/12/rumus-persegi.jpg.webp', caption='gambar persegi')
     def LuasPersegi(a):
         return a*a
     sisi = st.number_input('Silahkan masukkan nilai sisi', min_value=0)
